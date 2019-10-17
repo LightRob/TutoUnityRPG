@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4c29ddb3cf21d4e9b0596a8ba26af7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: 
+    itemID: 0
+    itemDesc: 'If you drink this nice bottle you will get some health back.
+
+
+      + 20 Health'
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 0}
+    itemValue: 1
+    itemType: 2
+    itemWeight: 0
+    maxStack: 0
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: Iron Sword
+    itemID: 1
+    itemDesc: "Simple \xE9p\xE9e de fer"
+    itemIcon: {fileID: 21300000, guid: e1d84a8f895ad92499ea3cd90b4de0cf, type: 3}
+    itemModel: {fileID: 6767575831956011659, guid: 5b8b379bce0809a44adb930d81393c35,
+      type: 3}
+    itemValue: 10
+    itemType: 4
+    itemWeight: 5
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 5
+    itemAttributes:
+    - attributeName: Attack
+      attributeValue: 10
